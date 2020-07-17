@@ -8,6 +8,7 @@ import br.com.indra.model.Pessoa;
 @Repository
 public interface PessoaRepository extends JpaRepository<Pessoa, Long> {
 	
+	//Teste
 	Pessoa findById(long id);
 
 }
